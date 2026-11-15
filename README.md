@@ -1,5 +1,5 @@
 # EX No.3.2. CREATE 3D MODEL FROM ORTHOGRAPHIC PROJECTION
-## DATE:
+## DATE:02/11/2026
 ## AIM:
 To create a 3D model from given orthographic projection.
 
@@ -10,38 +10,49 @@ To create a 3D model from given orthographic projection.
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
 ## PROCEDURE:
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch.
 
-![image](https://user-images.githubusercontent.com/113594316/198823371-bacc7928-28aa-45dd-a652-8833f95e3ea9.png)
+1. Open the **Autodesk Fusion 360** software.
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+2. Click on **File → New Design** to create a new design.
 
-![image](https://user-images.githubusercontent.com/113594316/198823384-c72c4c0f-9650-48db-b7da-697a0f22886b.png)
+3. Select the **XY Plane** and click on **Create Sketch**.
+<img width="406" height="666" alt="Screenshot 2026-11-16 015257" src="https://github.com/user-attachments/assets/5f00574e-52bd-4f02-a607-ee5b88576a6d" />
 
-5.	Use inspect feature to measure the dimensions of sketch.
+4. Draw the main rectangular base profile using the **Rectangle Tool** with the given dimensions of 300 mm × 150 mm.
+<img width="76" height="41" alt="Screenshot 2026-11-16 024958" src="https://github.com/user-attachments/assets/eba99777-64b4-4c9f-acf8-83c64c9e62b4" />
 
-![image](https://user-images.githubusercontent.com/113594316/198823390-0832a221-257e-439f-99b4-1a8beca74b56.png)
+5. Draw the semicircular portions on both sides using the **Arc Tool** with a radius of 60 mm.
+<img width="60" height="61" alt="Screenshot 2026-11-16 015439" src="https://github.com/user-attachments/assets/0aed80c0-82d1-4d6f-80d8-1c73af1a67b5" />
 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
+6. Draw the required circular holes of diameter 40 mm on both sides and a central hole of diameter 20 mm using the **Circle Tool**.
+<img width="62" height="52" alt="Screenshot 2026-11-16 015356" src="https://github.com/user-attachments/assets/b9a2ef85-1dda-43fd-9b9b-b33b07d9b8a9" />
 
-![image](https://user-images.githubusercontent.com/113594316/198823401-1b79c82e-7665-4874-8135-52cbce3bb50d.png)
+7. Apply the required dimensions using the **Sketch Dimension Tool (D)**.
 
-7.	Use extrude option to convert 3D model from sketch
+8. Click on **Finish Sketch** and use the **Extrude Tool (E)** to create the main base with the required thickness.
+<img width="146" height="61" alt="Screenshot 2026-11-16 020758" src="https://github.com/user-attachments/assets/a47134ea-638b-4102-b22e-f2f59f4b8495" />
 
-![image](https://user-images.githubusercontent.com/113594316/198823408-d3d678f1-2247-41a2-abdd-b9a8918daef8.png)
+9. Select the front face and create the raised semicircular portion using the **Arc Tool** with a radius of 110 mm.
 
+10. Create the central rectangular opening with a width of 120 mm using the **Rectangle Tool**.
 
-8.	After finishing the model convert to drawing sheet per  ISO standard.
+11. Use the **Extrude Tool** to create the raised portion with the required height of 110 mm.
+<img width="52" height="57" alt="Screenshot 2026-11-16 025216" src="https://github.com/user-attachments/assets/0db04789-27c8-4bae-a21b-bbb70c7b36c2" />
 
-![image](https://user-images.githubusercontent.com/113594316/198823415-9d0a9454-b197-44bf-b90f-179c75602500.png)
+12. Use the **Extrude Cut** command to create the required rectangular opening and holes.
+
+13. Apply the remaining dimensions such as 420 mm, 150 mm, 60 mm and 30 mm according to the given drawing.
+
+14. Check the model carefully and ensure that all the features match the given drawing.
+
+15. Click on **Finish Sketch** and save the completed design using **File → Save**.
+
 
 ## INPUT:
-![image](https://user-images.githubusercontent.com/113594316/198823540-38a1b79a-1f68-4876-add9-adf59b98b386.png)
+<img width="1917" height="960" alt="Screenshot 2026-11-16 004458" src="https://github.com/user-attachments/assets/afb724af-960a-4518-84cc-1ae06caa22d6" />
 
 ## OUTPUT:
+<img width="1911" height="1051" alt="image" src="https://github.com/user-attachments/assets/53959f4e-bc6a-4849-bce0-274a831f713a" />
 
 ## RESULT:
 Thus, 3D model is created from orthographic projection.
